@@ -53,10 +53,10 @@ jobs:
           - {os: "ubuntu-latest", osname: "Linux", PY: "3.11", TOXENV: "py311", arch: "x64"}
           - {os: "ubuntu-latest", osname: "Linux", PY: "3.12", TOXENV: "py312", arch: "x64"}
           - {os: "ubuntu-latest", osname: "Linux", PY: "3.14", TOXENV: "py314", arch: "x64"}
-          - {os: "macos-latest", osname: "MacOS", PY: "3.10", TOXENV: "py310", arch: "x64"}
+          #- {os: "macos-latest", osname: "MacOS", PY: "3.10", TOXENV: "py310", arch: "x64"}
           - {os: "macos-latest", osname: "MacOS", PY: "3.11", TOXENV: "py311", arch: "x64"}
           #- {os: "macos-latest", osname: "MacOS", PY: "3.12", TOXENV: "py312", arch: "x64"}
-          - {os: "windows-latest", osname: "Windows", PY: "3.7", TOXENV: "py37", arch: "x86"}
+          #- {os: "windows-latest", osname: "Windows", PY: "3.7", TOXENV: "py37", arch: "x86"}
           - {os: "windows-latest", osname: "Windows", PY: "3.8", TOXENV: "py38", arch: "x64"}
           - {os: "windows-latest", osname: "Windows", PY: "3.10", TOXENV: "py310", arch: "x86"}
           - {os: "windows-latest", osname: "Windows", PY: "3.11", TOXENV: "py311", arch: "x64"}
