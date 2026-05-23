@@ -52,6 +52,7 @@ jobs:
           - {os: "ubuntu-latest", osname: "Linux", PY: "3.10", TOXENV: "py310", arch: "x64"}
           - {os: "ubuntu-latest", osname: "Linux", PY: "3.11", TOXENV: "py311", arch: "x64"}
           - {os: "ubuntu-latest", osname: "Linux", PY: "3.12", TOXENV: "py312", arch: "x64"}
+          - {os: "ubuntu-latest", osname: "Linux", PY: "3.14", TOXENV: "py314", arch: "x64"}
           - {os: "macos-latest", osname: "MacOS", PY: "3.10", TOXENV: "py310", arch: "x64"}
           - {os: "macos-latest", osname: "MacOS", PY: "3.11", TOXENV: "py311", arch: "x64"}
           #- {os: "macos-latest", osname: "MacOS", PY: "3.12", TOXENV: "py312", arch: "x64"}
@@ -95,6 +96,7 @@ jobs:
           - {PY: "3.9", PG: "13", TOXENV: "py39"}
           - {PY: "3.10", PG: "14", TOXENV: "py310"}
           - {PY: "3.11", PG: "15", TOXENV: "py311"}
+          - {PY: "3.14", PG: "18", TOXENV: "py314"}
           #- {PY: "pypy3.9", PG: "15", TOXENV: "pypy39"}
           #- {PY: "pypy3.10", PG: "15", TOXENV: "pypy310"}
     steps:
